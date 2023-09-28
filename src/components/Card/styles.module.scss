@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 4px;
+  background: #efefef;
+  height: 64px;
+  width: 308px;
+  gap: 22px;
+  padding: 16px 22px;
+  margin: 0 auto;
+
+  img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .title {
+    color: #353535;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .subTitle {
+    color: #000;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}

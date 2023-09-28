@@ -1,0 +1,120 @@
+header {
+  .header-top-bar {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353535;
+
+    p {
+      font-family: "Titillium Web", sans-serif;
+      color: white;
+      font-size: 10px;
+      font-weight: 400;
+    }
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88px;
+    padding: 0 161px;
+
+    background: #fff;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.08);
+
+    a {
+      margin-right: 93px;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        font-family: "Titillium Web", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        gap: 8px;
+
+        color: #353535;
+        cursor: pointer;
+        background: none;
+        border: none;
+        display: flex;
+        align-items: center;
+
+        &.user-link {
+          margin-right: 39px;
+        }
+
+        &.heart-link {
+          margin-right: 48.71px;
+        }
+
+        &.shopping-bag-link {
+          border-radius: 8px;
+          border: 1px solid var(--color-1500-faa-500, #faa500);
+          padding: 12px 14px 13px 17px;
+        }
+      }
+
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
+    }
+    .shopping-bag-big-link {
+      background: none;
+      border: none;
+      margin-left: 31px;
+    }
+  }
+
+  menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 48px;
+
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style-type: none;
+      width: 146px;
+      gap: 8px;
+      &.menu-link-highlight a {
+        color: #faa500;
+      }
+      a {
+        text-decoration: none;
+        color: #353535;
+        font-family: "Titillium Web", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+      }
+    }
+
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
+  }
+
+  .shopping-bag-big-link {
+    display: none;
+
+    @media screen and (max-width: 1024px) {
+      display: unset;
+    }
+  }
+}

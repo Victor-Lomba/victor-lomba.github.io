@@ -1,0 +1,31 @@
+.swiper-pagination-bullet {
+  opacity: 1;
+  background: transparent;
+  height: 16px;
+  width: 16px;
+  border: 1px solid #faa500;
+}
+
+.swiper-pagination-bullet-active {
+  background: #faa500;
+}
+
+.arrow-prev {
+  position: absolute;
+  left: 161px;
+  top: 50%;
+  z-index: 10;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.arrow-next {
+  position: absolute;
+  right: 161px;
+  top: 50%;
+  z-index: 10;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
